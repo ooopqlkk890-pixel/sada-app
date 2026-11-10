@@ -1,0 +1,31 @@
+name: sada
+description: صدى - تطبيق بث عصري
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.0.5
+  flutter_secure_storage: ^9.2.2
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  cached_network_image: ^3.4.1
+  google_fonts: ^6.2.1
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon.png
+  adaptive_icon_background: "#07050F"
+  adaptive_icon_foreground: assets/icon_fg.png
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
